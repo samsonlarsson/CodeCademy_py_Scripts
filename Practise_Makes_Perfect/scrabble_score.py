@@ -9,6 +9,6 @@ def scrabble_score(word):
     total = 0 #innitial score
     for i in word:
         total = total + (score[i])
-        """loop through the word that                                       you are given as input and                                       look up the score for each                                       letter in the score dictionary"""
+        """loop through the word that you are given as input and look up the score for each letter in the score dictionary"""
     print total
     return total
