@@ -1,4 +1,4 @@
-def count (sequence, item):
+def count(sequence, item):
     count = 0
     for i in sequence:
         if type (item) != list:
